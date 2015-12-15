@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF096DEE1C1ED60900627998 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF096DED1C1ED60900627998 /* TreeNode.swift */; };
+		DF096DF01C1EF9F900627998 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF096DEF1C1EF9F900627998 /* UIColor+Extension.swift */; };
+		DF096DF31C1F12F000627998 /* BranchNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF096DF21C1F12F000627998 /* BranchNode.swift */; };
+		DF096DF51C1F2FCD00627998 /* LeafNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF096DF41C1F2FCD00627998 /* LeafNode.swift */; };
+		DF15CE851C1F5B4B00596D7C /* Float+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF15CE841C1F5B4B00596D7C /* Float+Extension.swift */; };
+		DF15CE871C1F5C1900596D7C /* SCNVector4+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF15CE861C1F5C1900596D7C /* SCNVector4+Extension.swift */; };
+		DF15CE891C1F5E9300596D7C /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF15CE881C1F5E9300596D7C /* Double+Extension.swift */; };
+		DF15CE8B1C1F651800596D7C /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF15CE8A1C1F651800596D7C /* Int+Extension.swift */; };
+		DF15CE901C1F6D9C00596D7C /* XmasTreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF15CE8F1C1F6D9C00596D7C /* XmasTreeView.swift */; };
+		DF5699F91C180D1800745F01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5699F81C180D1800745F01 /* AppDelegate.swift */; };
+		DF5699FB1C180D1800745F01 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = DF5699FA1C180D1800745F01 /* art.scnassets */; };
+		DF5699FD1C180D1800745F01 /* XmasTreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5699FC1C180D1800745F01 /* XmasTreeViewController.swift */; };
+		DF569A001C180D1800745F01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF5699FE1C180D1800745F01 /* Main.storyboard */; };
+		DF569A021C180D1800745F01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF569A011C180D1800745F01 /* Assets.xcassets */; };
+		DF569A051C180D1800745F01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF569A031C180D1800745F01 /* LaunchScreen.storyboard */; };
+		DF569A101C180D1800745F01 /* XmasTreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF569A0F1C180D1800745F01 /* XmasTreeTests.swift */; };
+		DF569A1B1C180D1800745F01 /* XmasTreeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF569A1A1C180D1800745F01 /* XmasTreeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF569A0C1C180D1800745F01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF5699ED1C180D1800745F01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF5699F41C180D1800745F01;
+			remoteInfo = XmasTree;
+		};
+		DF569A171C180D1800745F01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF5699ED1C180D1800745F01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF5699F41C180D1800745F01;
+			remoteInfo = XmasTree;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF096DED1C1ED60900627998 /* TreeNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TreeNode.swift; path = Components/TreeNode.swift; sourceTree = "<group>"; };
+		DF096DEF1C1EF9F900627998 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+Extension.swift"; path = "Extensions/UIColor+Extension.swift"; sourceTree = "<group>"; };
+		DF096DF21C1F12F000627998 /* BranchNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BranchNode.swift; path = Components/BranchNode.swift; sourceTree = "<group>"; };
+		DF096DF41C1F2FCD00627998 /* LeafNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LeafNode.swift; path = Components/LeafNode.swift; sourceTree = "<group>"; };
+		DF15CE841C1F5B4B00596D7C /* Float+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Float+Extension.swift"; path = "Extensions/Float+Extension.swift"; sourceTree = "<group>"; };
+		DF15CE861C1F5C1900596D7C /* SCNVector4+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "SCNVector4+Extension.swift"; path = "Extensions/SCNVector4+Extension.swift"; sourceTree = "<group>"; };
+		DF15CE881C1F5E9300596D7C /* Double+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Double+Extension.swift"; path = "Extensions/Double+Extension.swift"; sourceTree = "<group>"; };
+		DF15CE8A1C1F651800596D7C /* Int+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Int+Extension.swift"; path = "Extensions/Int+Extension.swift"; sourceTree = "<group>"; };
+		DF15CE8F1C1F6D9C00596D7C /* XmasTreeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = XmasTreeView.swift; path = Views/XmasTreeView.swift; sourceTree = "<group>"; };
+		DF5699F51C180D1800745F01 /* XmasTree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XmasTree.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF5699F81C180D1800745F01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF5699FA1C180D1800745F01 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		DF5699FC1C180D1800745F01 /* XmasTreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = XmasTreeViewController.swift; path = Controllers/XmasTreeViewController.swift; sourceTree = "<group>"; };
+		DF5699FF1C180D1800745F01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF569A011C180D1800745F01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF569A041C180D1800745F01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF569A061C180D1800745F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF569A0B1C180D1800745F01 /* XmasTreeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XmasTreeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF569A0F1C180D1800745F01 /* XmasTreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XmasTreeTests.swift; sourceTree = "<group>"; };
+		DF569A111C180D1800745F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF569A161C180D1800745F01 /* XmasTreeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XmasTreeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF569A1A1C180D1800745F01 /* XmasTreeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XmasTreeUITests.swift; sourceTree = "<group>"; };
+		DF569A1C1C180D1800745F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF5699F21C180D1800745F01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF569A081C180D1800745F01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF569A131C180D1800745F01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF096DF11C1EFA1200627998 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DF096DEF1C1EF9F900627998 /* UIColor+Extension.swift */,
+				DF15CE841C1F5B4B00596D7C /* Float+Extension.swift */,
+				DF15CE881C1F5E9300596D7C /* Double+Extension.swift */,
+				DF15CE861C1F5C1900596D7C /* SCNVector4+Extension.swift */,
+				DF15CE8A1C1F651800596D7C /* Int+Extension.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		DF15CE8E1C1F6D3100596D7C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DF15CE8F1C1F6D9C00596D7C /* XmasTreeView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		DF5699EC1C180D1800745F01 = {
+			isa = PBXGroup;
+			children = (
+				DF5699F71C180D1800745F01 /* XmasTree */,
+				DF569A0E1C180D1800745F01 /* XmasTreeTests */,
+				DF569A191C180D1800745F01 /* XmasTreeUITests */,
+				DF5699F61C180D1800745F01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF5699F61C180D1800745F01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF5699F51C180D1800745F01 /* XmasTree.app */,
+				DF569A0B1C180D1800745F01 /* XmasTreeTests.xctest */,
+				DF569A161C180D1800745F01 /* XmasTreeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF5699F71C180D1800745F01 /* XmasTree */ = {
+			isa = PBXGroup;
+			children = (
+				DF15CE8E1C1F6D3100596D7C /* Views */,
+				DF569A2E1C18D89B00745F01 /* Controllers */,
+				DF569A2B1C18D45500745F01 /* Components */,
+				DF096DF11C1EFA1200627998 /* Extensions */,
+				DF569A2A1C18D35A00745F01 /* Original */,
+			);
+			path = XmasTree;
+			sourceTree = "<group>";
+		};
+		DF569A0E1C180D1800745F01 /* XmasTreeTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF569A0F1C180D1800745F01 /* XmasTreeTests.swift */,
+				DF569A111C180D1800745F01 /* Info.plist */,
+			);
+			path = XmasTreeTests;
+			sourceTree = "<group>";
+		};
+		DF569A191C180D1800745F01 /* XmasTreeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF569A1A1C180D1800745F01 /* XmasTreeUITests.swift */,
+				DF569A1C1C180D1800745F01 /* Info.plist */,
+			);
+			path = XmasTreeUITests;
+			sourceTree = "<group>";
+		};
+		DF569A2A1C18D35A00745F01 /* Original */ = {
+			isa = PBXGroup;
+			children = (
+				DF5699F81C180D1800745F01 /* AppDelegate.swift */,
+				DF5699FA1C180D1800745F01 /* art.scnassets */,
+				DF5699FE1C180D1800745F01 /* Main.storyboard */,
+				DF569A011C180D1800745F01 /* Assets.xcassets */,
+				DF569A031C180D1800745F01 /* LaunchScreen.storyboard */,
+				DF569A061C180D1800745F01 /* Info.plist */,
+			);
+			name = Original;
+			sourceTree = "<group>";
+		};
+		DF569A2B1C18D45500745F01 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				DF096DED1C1ED60900627998 /* TreeNode.swift */,
+				DF096DF21C1F12F000627998 /* BranchNode.swift */,
+				DF096DF41C1F2FCD00627998 /* LeafNode.swift */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		DF569A2E1C18D89B00745F01 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DF5699FC1C180D1800745F01 /* XmasTreeViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF5699F41C180D1800745F01 /* XmasTree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF569A1F1C180D1800745F01 /* Build configuration list for PBXNativeTarget "XmasTree" */;
+			buildPhases = (
+				DF5699F11C180D1800745F01 /* Sources */,
+				DF5699F21C180D1800745F01 /* Frameworks */,
+				DF5699F31C180D1800745F01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XmasTree;
+			productName = XmasTree;
+			productReference = DF5699F51C180D1800745F01 /* XmasTree.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF569A0A1C180D1800745F01 /* XmasTreeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF569A221C180D1800745F01 /* Build configuration list for PBXNativeTarget "XmasTreeTests" */;
+			buildPhases = (
+				DF569A071C180D1800745F01 /* Sources */,
+				DF569A081C180D1800745F01 /* Frameworks */,
+				DF569A091C180D1800745F01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF569A0D1C180D1800745F01 /* PBXTargetDependency */,
+			);
+			name = XmasTreeTests;
+			productName = XmasTreeTests;
+			productReference = DF569A0B1C180D1800745F01 /* XmasTreeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF569A151C180D1800745F01 /* XmasTreeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF569A251C180D1800745F01 /* Build configuration list for PBXNativeTarget "XmasTreeUITests" */;
+			buildPhases = (
+				DF569A121C180D1800745F01 /* Sources */,
+				DF569A131C180D1800745F01 /* Frameworks */,
+				DF569A141C180D1800745F01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF569A181C180D1800745F01 /* PBXTargetDependency */,
+			);
+			name = XmasTreeUITests;
+			productName = XmasTreeUITests;
+			productReference = DF569A161C180D1800745F01 /* XmasTreeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF5699ED1C180D1800745F01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = sdklt;
+				TargetAttributes = {
+					DF5699F41C180D1800745F01 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					DF569A0A1C180D1800745F01 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = DF5699F41C180D1800745F01;
+					};
+					DF569A151C180D1800745F01 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = DF5699F41C180D1800745F01;
+					};
+				};
+			};
+			buildConfigurationList = DF5699F01C180D1800745F01 /* Build configuration list for PBXProject "XmasTree" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF5699EC1C180D1800745F01;
+			productRefGroup = DF5699F61C180D1800745F01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF5699F41C180D1800745F01 /* XmasTree */,
+				DF569A0A1C180D1800745F01 /* XmasTreeTests */,
+				DF569A151C180D1800745F01 /* XmasTreeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF5699F31C180D1800745F01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF5699FB1C180D1800745F01 /* art.scnassets in Resources */,
+				DF569A051C180D1800745F01 /* LaunchScreen.storyboard in Resources */,
+				DF569A021C180D1800745F01 /* Assets.xcassets in Resources */,
+				DF569A001C180D1800745F01 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF569A091C180D1800745F01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF569A141C180D1800745F01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF5699F11C180D1800745F01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF5699FD1C180D1800745F01 /* XmasTreeViewController.swift in Sources */,
+				DF5699F91C180D1800745F01 /* AppDelegate.swift in Sources */,
+				DF096DEE1C1ED60900627998 /* TreeNode.swift in Sources */,
+				DF096DF01C1EF9F900627998 /* UIColor+Extension.swift in Sources */,
+				DF096DF51C1F2FCD00627998 /* LeafNode.swift in Sources */,
+				DF15CE8B1C1F651800596D7C /* Int+Extension.swift in Sources */,
+				DF15CE851C1F5B4B00596D7C /* Float+Extension.swift in Sources */,
+				DF15CE871C1F5C1900596D7C /* SCNVector4+Extension.swift in Sources */,
+				DF15CE891C1F5E9300596D7C /* Double+Extension.swift in Sources */,
+				DF096DF31C1F12F000627998 /* BranchNode.swift in Sources */,
+				DF15CE901C1F6D9C00596D7C /* XmasTreeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF569A071C180D1800745F01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF569A101C180D1800745F01 /* XmasTreeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF569A121C180D1800745F01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF569A1B1C180D1800745F01 /* XmasTreeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF569A0D1C180D1800745F01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF5699F41C180D1800745F01 /* XmasTree */;
+			targetProxy = DF569A0C1C180D1800745F01 /* PBXContainerItemProxy */;
+		};
+		DF569A181C180D1800745F01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF5699F41C180D1800745F01 /* XmasTree */;
+			targetProxy = DF569A171C180D1800745F01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF5699FE1C180D1800745F01 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF5699FF1C180D1800745F01 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF569A031C180D1800745F01 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF569A041C180D1800745F01 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF569A1D1C180D1800745F01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF569A1E1C180D1800745F01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF569A201C180D1800745F01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XmasTree/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdklt.XmasTree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DF569A211C180D1800745F01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XmasTree/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdklt.XmasTree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DF569A231C180D1800745F01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = XmasTreeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdklt.XmasTreeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XmasTree.app/XmasTree";
+			};
+			name = Debug;
+		};
+		DF569A241C180D1800745F01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XmasTreeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdklt.XmasTreeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XmasTree.app/XmasTree";
+			};
+			name = Release;
+		};
+		DF569A261C180D1800745F01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = XmasTreeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdklt.XmasTreeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XmasTree;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DF569A271C180D1800745F01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XmasTreeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdklt.XmasTreeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XmasTree;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF5699F01C180D1800745F01 /* Build configuration list for PBXProject "XmasTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF569A1D1C180D1800745F01 /* Debug */,
+				DF569A1E1C180D1800745F01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF569A1F1C180D1800745F01 /* Build configuration list for PBXNativeTarget "XmasTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF569A201C180D1800745F01 /* Debug */,
+				DF569A211C180D1800745F01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF569A221C180D1800745F01 /* Build configuration list for PBXNativeTarget "XmasTreeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF569A231C180D1800745F01 /* Debug */,
+				DF569A241C180D1800745F01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF569A251C180D1800745F01 /* Build configuration list for PBXNativeTarget "XmasTreeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF569A261C180D1800745F01 /* Debug */,
+				DF569A271C180D1800745F01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF5699ED1C180D1800745F01 /* Project object */;
+}
